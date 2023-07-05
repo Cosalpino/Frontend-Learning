@@ -1,1 +1,167 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
 
+/* Header*/ 
+
+header {
+  background-color: black;
+  font-size: 26px;
+
+  padding: 1vh 3vw;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+header span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+header a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.header__divide {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+#header__button-secondary {
+    margin-right: 1rem;
+}
+
+/* Global classes*/ 
+
+.link__underlign--active:hover {
+    text-decoration: underline;
+}
+
+.link__fade--active:hover{
+    opacity: 0.8;
+}
+
+.button {
+    color: white;
+    font-size: 26px;
+    border-radius: 10px;
+    padding: 10px 30px;
+}
+
+.button-primary {
+    background-color: rgb(84, 58, 233);
+    border: none;
+}
+
+.button-primary:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 450ms;
+}
+
+.button-secondary {
+    border: 2px solid white;
+    background-color: transparent;
+}
+
+/* Hero */
+
+.hero {
+    background-color: rgb(202, 184, 219);
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    padding: 10vh;
+}
+
+.hero__title{
+    font-size: 60px;
+    margin-bottom: 1vh;
+}
+
+.hero__search {
+    background-color: white;
+    min-width: 50vw;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.hero__search input {
+    padding: 1rem;
+    font-size: 20px;
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border:  none;
+}
+
+.hero__search__arrow {
+  position: relative;
+}
+
+/* Nav */
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 10vh 15vw;
+    column-gap: 5vw;
+    row-gap: 7vh;
+}
+
+nav div p {
+    font-size: 1.5rem;
+}
+
+.nav__section {
+    display: inline-flex;
+}
+
+.section__image {
+    margin-right: 15px;
+    margin-top: 19.92px;
+}
+
+.section__link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+}
+
+.section__link img {
+    margin-left: 5px;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 3vh 5vw;
+    min-height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 2fr;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.copyright {
+    place-self: end;
+    
+}
