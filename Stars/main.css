@@ -16,13 +16,20 @@
     font-size: 64px;
     color: transparent;
     -webkit-text-stroke: 2px black;
+    transition:  font-size 500ms;
 }
 
 #stars {
+    height: 80px;
     --pc : 0%;
     background-clip: text;
     -webkit-background-clip: text;
-    background-color: yellow;
+    background-image: linear-gradient(to right, red , yellow);;
     width: var(--pc);
     display: flex;
+    align-items: center;
+}
+
+.star:hover {
+    font-size: 80px;
 }
