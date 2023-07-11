@@ -9,22 +9,12 @@
 <body>
     <div class="rating">
         <h1>Rate your hapiness</h1>
-        <div class="stars">
-            <svg width="50" height="50" viewBox="0 0 2025 1925" fill="lightgrey" xmlns="http://www.w3.org/2000/svg" id="star-1" class="star" onclick="starClicked(this)">
-                <path d="M1026.77 93.3647L1012.5 49.459L998.234 93.3647L784.609 750.835H93.3039H47.1386L84.4871 777.97L643.765 1184.31L430.14 1841.78L415.874 1885.69L453.222 1858.55L1012.5 1452.21L1571.78 1858.55L1609.13 1885.69L1594.86 1841.78L1381.24 1184.31L1940.51 777.97L1977.86 750.835H1931.7H1240.39L1026.77 93.3647Z" stroke="black" stroke-width="30"/>
-            </svg>
-            <svg width="50" height="50" viewBox="0 0 2025 1925" fill="lightgrey" xmlns="http://www.w3.org/2000/svg" id="star-2" class="star" onclick="starClicked(this)">
-                <path d="M1026.77 93.3647L1012.5 49.459L998.234 93.3647L784.609 750.835H93.3039H47.1386L84.4871 777.97L643.765 1184.31L430.14 1841.78L415.874 1885.69L453.222 1858.55L1012.5 1452.21L1571.78 1858.55L1609.13 1885.69L1594.86 1841.78L1381.24 1184.31L1940.51 777.97L1977.86 750.835H1931.7H1240.39L1026.77 93.3647Z" stroke="black" stroke-width="30"/>
-            </svg>
-            <svg width="50" height="50" viewBox="0 0 2025 1925" fill="lightgrey" xmlns="http://www.w3.org/2000/svg" id="star-3" class="star" onclick="starClicked(this)">
-                <path d="M1026.77 93.3647L1012.5 49.459L998.234 93.3647L784.609 750.835H93.3039H47.1386L84.4871 777.97L643.765 1184.31L430.14 1841.78L415.874 1885.69L453.222 1858.55L1012.5 1452.21L1571.78 1858.55L1609.13 1885.69L1594.86 1841.78L1381.24 1184.31L1940.51 777.97L1977.86 750.835H1931.7H1240.39L1026.77 93.3647Z" stroke="black" stroke-width="30"/>
-            </svg>
-            <svg width="50" height="50" viewBox="0 0 2025 1925" fill="lightgrey" xmlns="http://www.w3.org/2000/svg" id="star-4" class="star" onclick="starClicked(this)">
-                <path d="M1026.77 93.3647L1012.5 49.459L998.234 93.3647L784.609 750.835H93.3039H47.1386L84.4871 777.97L643.765 1184.31L430.14 1841.78L415.874 1885.69L453.222 1858.55L1012.5 1452.21L1571.78 1858.55L1609.13 1885.69L1594.86 1841.78L1381.24 1184.31L1940.51 777.97L1977.86 750.835H1931.7H1240.39L1026.77 93.3647Z" stroke="black" stroke-width="30"/>
-            </svg>
-            <svg width="50" height="50" viewBox="0 0 2025 1925" fill="lightgrey" xmlns="http://www.w3.org/2000/svg" id="star-5" class="star" onclick="starClicked(this)">
-                <path d="M1026.77 93.3647L1012.5 49.459L998.234 93.3647L784.609 750.835H93.3039H47.1386L84.4871 777.97L643.765 1184.31L430.14 1841.78L415.874 1885.69L453.222 1858.55L1012.5 1452.21L1571.78 1858.55L1609.13 1885.69L1594.86 1841.78L1381.24 1184.31L1940.51 777.97L1977.86 750.835H1931.7H1240.39L1026.77 93.3647Z" stroke="black" stroke-width="30"/>
-            </svg>
+        <div id="stars">
+            <span class="star" onclick="starClicked(1)">&#9733;</span>
+            <span class="star" onclick="starClicked(2)">&#9733;</span>
+            <span class="star" onclick="starClicked(3)">&#9733;</span>
+            <span class="star" onclick="starClicked(4)">&#9733;</span>
+            <span class="star" onclick="starClicked(5)">&#9733;</span>
         </div>
         <h1 id="percentage">0%</h1>
     </div>

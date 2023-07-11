@@ -13,8 +13,16 @@
 
 .star {
     cursor: pointer;
+    font-size: 64px;
+    color: transparent;
+    -webkit-text-stroke: 2px black;
 }
 
-.star--active {
-    fill: yellow;
+#stars {
+    --pc : 0%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-color: yellow;
+    width: var(--pc);
+    display: flex;
 }
